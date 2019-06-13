@@ -102,3 +102,43 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# JS
+
+node_modules/
+.*
+!/.babelrc
+!/.gitignore
+!/.npm-debug.log
+!/.gitlab-ci.yml
+!/.eslint*
+!/consumer/.eslint*
+!/.meteor
+!consumer/.babelrc
+!admin/.babelrc
+!.circleci
+!admin/.meteorMocks
+!consumer/.meteorMocks
+.DS_Store
+backups
+npm-debug.log
+imports/ui/layout/Find Results
+test/screenshots/*
+*/settings/*
+settings/*.json
+settings/*.js
+.env
+dutchie-stg-dump
+yarn-error.log
+cscope.*
+javascript.db
+tags
+**/db_config.js
+out
+.vscode
+!dispo-landing/.htaccess
+products-*.json
+dispo-clone-*.json
+tmp
+*.csv
